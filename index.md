@@ -28,3 +28,13 @@
 **Why**: Implementation First Ansatz verwendet
 
 **Beispiel:** Die Applikation gibt regelmäßig Fehler aus bzw. die meiste Zeit der Entwickler geht für Bugfixing drauf. Hintergrund sind ungültige Aufrufe und Objektzustände, die der konsumierenden Code produziert. Das zu Grunde liegende Problem besteht darin, dass der verwendete Code geschrieben wurde ohne Rücksicht auf den Kontext, in dem Fall den Konsumenten, zu nehmen. Häufig damit einher gehen nachträgliche Anpassungen an der Implementation selbst, um doch noch irgendwie die Nutzung für den Konsumenten zu ermöglichen.
+
+# Kausalte Kette 4
+
+**What**: Lange Entwicklungszeiten für neue Anforderungen
+
+**How**: Geschäftslogik (Domäne, Businesslogik) nicht erweiterbar
+
+**Why**: Vermischung von Aspekten bzw. Separation of Concerns nicht eingehalten
+
+**Beispiel:** Die Geschwindigkeit der Weiterentwicklung nimmt von Sprint zu Sprint ab bzw. vermeintlich weniger komplizierte Adaptionen bestehender Funktionalität dauern länger als erwartet. Hintergrund ist, dass die bisherige Geschäftslogik nur schlecht erweiterbar ist. Das zu Grunde liegende Problem ist die Vermischung von Aspekten, z.B. Domänenlogik und Infrastruktur. Letzteres blutet in die Domänenlogik rein, sodass bei Neuerungen um die Infrastruktur herum gebaut werden muss und eine Erweiterbarkeit viel schwieriger zu gewährleisten ist.
