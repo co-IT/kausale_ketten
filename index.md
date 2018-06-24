@@ -19,7 +19,7 @@
 
 **Beispiel:** Der Kunde ist mit den Ergebnissen unzufrieden, weil er der Meinung ist, dass es anders besprochen wurde. Hintergrund sind Missverständnisse zw. der Fachabteilung und den Entwicklern, weil Begriffe unterschiedlich interpretiert wurden. Das zu Grunde liegende Problem ist eine fehlende gemeinsame Sprache.
 
-# Kausalte Kette 3
+# Kausale Kette 3
 
 **What**: Viele Bugs
 
@@ -29,7 +29,7 @@
 
 **Beispiel:** Die Applikation gibt regelmäßig Fehler aus bzw. die meiste Zeit der Entwickler geht für Bugfixing drauf. Hintergrund sind ungültige Aufrufe und Objektzustände, die der konsumierenden Code produziert. Das zu Grunde liegende Problem besteht darin, dass der verwendete Code geschrieben wurde ohne Rücksicht auf den Kontext, in dem Fall den Konsumenten, zu nehmen. Häufig damit einher gehen nachträgliche Anpassungen an der Implementation selbst, um doch noch irgendwie die Nutzung für den Konsumenten zu ermöglichen.
 
-# Kausalte Kette 4
+# Kausale Kette 4
 
 **What**: Lange Entwicklungszeiten für neue Anforderungen
 
